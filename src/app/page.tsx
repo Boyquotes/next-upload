@@ -87,9 +87,41 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1 style={{ textAlign: 'center', marginBottom: '40px', color: '#333' }}>
-        Upload de Fichiers avec Next.js
-      </h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '40px' }}>
+        <h1 style={{ textAlign: 'center', color: '#333', margin: 0 }}>
+          Upload de Fichiers avec Next.js
+        </h1>
+        <div style={{ display: 'flex', gap: '10px' }}>
+          <a 
+            href="/iframe"
+            style={{
+              padding: '10px 20px',
+              backgroundColor: '#28a745',
+              color: 'white',
+              textDecoration: 'none',
+              borderRadius: '4px',
+              fontSize: '14px',
+              fontWeight: 'bold'
+            }}
+          >
+            Iframe avec contrôles
+          </a>
+          <a 
+            href="/iframe-simple"
+            style={{
+              padding: '10px 20px',
+              backgroundColor: '#17a2b8',
+              color: 'white',
+              textDecoration: 'none',
+              borderRadius: '4px',
+              fontSize: '14px',
+              fontWeight: 'bold'
+            }}
+          >
+            Iframe simple
+          </a>
+        </div>
+      </div>
 
       <div
         {...getRootProps()}

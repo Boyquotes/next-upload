@@ -10,7 +10,14 @@ Une application Next.js 15.3.3 pour l'upload de fichiers avec React Dropzone, pr
 - ✅ Téléchargement des fichiers
 - ✅ Interface responsive
 - ✅ Limitation de taille (10MB par fichier)
+- ✅ Pages iframe pour contenu externe
 - ✅ Prêt pour le déploiement sur Render.com
+
+## Pages disponibles
+
+- **`/`** - Page d'upload principale
+- **`/iframe`** - Page iframe avec contrôles et navigation
+- **`/iframe-simple`** - Page iframe simple plein écran
 
 ## Développement local
 
